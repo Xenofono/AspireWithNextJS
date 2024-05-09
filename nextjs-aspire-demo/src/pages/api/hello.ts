@@ -1,4 +1,8 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+import logger from '@/lib/logger'
+
+
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Data = {
